@@ -1,0 +1,21 @@
+/* Function, max_min finds the smallest and largest elements of an array and stores them in pointers*/
+
+#include <stdio.h>
+
+#define N 10
+
+void max_min(int a[], int n, int *max, int *min);
+
+int main(void) {
+	int i = 0;
+	int arr[N];
+	printf("Enter %d numbers: ", N);
+	
+	for (i = 0; i < N; i++) {
+		scanf("%d  ");
+	}
+
+	return 0;
+}
+
+
